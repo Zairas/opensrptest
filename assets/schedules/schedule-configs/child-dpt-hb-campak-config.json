@@ -1,0 +1,40 @@
+{
+					"name": "CAMPAK LANJUTAN",
+					"handler": "ChildScheduleHandler",
+					"events": [
+						{
+							"types": ["Imunisasi Bayi"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"formSubmissionField": "dptHb3",
+									"value": "NOT_EMPTY"
+								},{
+									"formSubmissionField": "campak",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"milestone": "CAMPAK LANJUTAN",
+							"reference_date_fields": [
+				                {
+				                  "formSubmissionField": "campak",
+				                  "value": "NOT_EMPTY"
+				                }
+				             ],
+							"action": "enroll"
+						},
+						{
+							"types": ["Imunisasi Bayi"],
+							"pass_logic": "AND",
+							"fulfillment_date_fields": [
+								{
+									"formSubmissionField": "campak_lanjutan",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"milestone": "CAMPAK LANJUTAN",
+							"action": "fulfill"
+						}
+					]
+	
+}

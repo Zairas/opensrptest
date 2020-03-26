@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/opensrp.iml" filepath="$PROJECT_DIR$/opensrp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-api/opensrp-api.iml" filepath="$PROJECT_DIR$/opensrp-api/opensrp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-common/opensrp-common.iml" filepath="$PROJECT_DIR$/opensrp-common/opensrp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-connector/opensrp-connector.iml" filepath="$PROJECT_DIR$/opensrp-connector/opensrp-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-core/opensrp-core.iml" filepath="$PROJECT_DIR$/opensrp-core/opensrp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-form/opensrp-form.iml" filepath="$PROJECT_DIR$/opensrp-form/opensrp-form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-interface/opensrp-interface.iml" filepath="$PROJECT_DIR$/opensrp-interface/opensrp-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-register/opensrp-register.iml" filepath="$PROJECT_DIR$/opensrp-register/opensrp-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensrp-web/opensrp-web.iml" filepath="$PROJECT_DIR$/opensrp-web/opensrp-web.iml" />
+    </modules>
+  </component>
+</project>

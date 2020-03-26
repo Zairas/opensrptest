@@ -1,0 +1,23 @@
+{
+					"name": "Nutritionist Care Reminder Visit",
+					"events": [
+						{
+							"types": ["Child Registration"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"concept": "1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"reference_date_fields": [
+				                {
+				                  "type": "Client",
+				                  "field": "birthdate"
+				                }
+				             ],
+							"action": "enroll"
+						}
+					]
+	
+}

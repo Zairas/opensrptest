@@ -1,0 +1,484 @@
+{
+    "name": "Nutritionist Care Reminder Visit",
+    "absolute": true,
+    "milestones": [
+        {
+            "name": "Weight Measurement",
+            "scheduleWindows": {
+                "earliest": ["0 Days"],
+                "due": ["1 Month"],
+                "late": ["2 Months"],
+                "max": ["6 years"]
+            },
+            "alerts": [
+                 {
+                    "window": "due",
+                    "offset": ["30 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["56 Days"],
+                    "interval": ["1 Day"],
+                    "count": "105"
+                },
+                {
+                    "window": "max",
+                    "offset": ["161 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }
+                
+            ]
+        },
+        {
+            "name": "Length Measurement 3 Months",
+            "scheduleWindows": {
+            	"earliest": ["2 Months"],
+                "due": ["3 Months"],
+                "late": ["5 Months"],
+                "max": ["6 Months"]
+            },
+            "alerts": [           
+                {
+                    "window": "due",
+                    "offset": ["90 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["150 Days"],
+                    "interval": ["1 Day"],
+                    "count": "49"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["180 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                            
+            ]
+        },
+        {
+            "name": "Length Measurement 6 Months",
+            "scheduleWindows": {
+            	"earliest": ["5 Months"],
+                "due": ["6 Months"],
+                "late": ["8 Months"],
+                "max": ["9 Months"]
+            },
+            "alerts": [            	
+                {
+                    "window": "due",
+                    "offset": ["180 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["240 Days"],
+                    "interval": ["1 Day"],
+                    "count": "21"
+                },
+                {
+                    "window": "max",
+                    "offset": ["270 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                 
+            ]
+        },
+        {
+            "name": "Length Measurement 9 Months",
+            "scheduleWindows": {
+            	"earliest": ["8 Months"],
+                "due": ["9 Months"],
+                "late": ["11 Months"],
+                "max": ["12 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["270 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["330 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["365 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Length Measurement 12 Months",
+            "scheduleWindows": {
+            	"earliest": ["11 Months"],
+                "due": ["12 Months"],
+                "late": ["14 Months"],
+                "max": ["15 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["365 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["420 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["600 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Length Measurement 15 Months",
+            "scheduleWindows": {
+            	"earliest": ["14 Months"],
+                "due": ["15 Months"],
+                "late": ["17 Months"],
+                "max": ["18 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["450 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["510 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["540 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Length Measurement 18 Months",
+            "scheduleWindows": {
+            	"earliest": ["17 Months"],
+                "due": ["18 Months"],
+                "late": ["20 Months"],
+                "max": ["21 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["540 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["600 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["630 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Length Measurement 21 Months",
+            "scheduleWindows": {
+            	"earliest": ["20 Months"],
+                "due": ["21 Months"],
+                "late": ["23 Months"],
+                "max": ["24 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["630 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["690 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["720 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Length Measurement 24 Months",
+            "scheduleWindows": {
+            	"earliest": ["23 Months"],
+                "due": ["24 Months"],
+                "late": ["29 Months"],
+                "max": ["30 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["720 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["870 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["900 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Height Measurement 30 Months",
+            "scheduleWindows": {
+            	"earliest": ["29 Months"],
+                "due": ["30 Months"],
+                "late": ["35 Months"],
+                "max": ["36 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["900 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["1050 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["1080 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Height Measurement 36 Months",
+            "scheduleWindows": {
+            	"earliest": ["35 Months"],
+                "due": ["36 Months"],
+                "late": ["41 Months"],
+                "max": ["42 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["1080 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["1230 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["1260 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Height Measurement 42 Months",
+            "scheduleWindows": {
+            	"earliest": ["41 Months"],
+                "due": ["42 Months"],
+                "late": ["47 Months"],
+                "max": ["48 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["1260 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["1410 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["1440 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Height Measurement 48 Months",
+            "scheduleWindows": {
+            	"earliest": ["47 Months"],
+                "due": ["48 Months"],
+                "late": ["53 Months"],
+                "max": ["54 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["1440 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["1590 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["1620 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Height Measurement 54 Months",
+            "scheduleWindows": {
+            	"earliest": ["53 Months"],
+                "due": ["54 Months"],
+                "late": ["59 Months"],
+                "max": ["60 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["1620 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["1770 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["1800 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Height Measurement 60 Months",
+            "scheduleWindows": {
+            	"earliest": ["59 Months"],
+                "due": ["60 Months"],
+                "late": ["65 Months"],
+                "max": ["66 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["1800 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["1950 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["1980 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        },
+        {
+            "name": "Height Measurement 66 Months",
+            "scheduleWindows": {
+            	"earliest": ["65 Months"],
+                "due": ["66 Months"],
+                "late": ["72 Months"],
+                "max": ["73 Months"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["1980 Days"],
+                    "interval": ["1 Day"],
+                    "count": "5"
+                },
+                {
+                    "window": "late",
+                    "offset": ["2160 Days"],
+                    "interval": ["1 Day"],
+                    "count": "400"
+                },
+                 {
+                    "window": "max",
+                    "offset": ["2190 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                  
+                         
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/assets/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/form" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/schedules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/build" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-connector/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-connector/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-core/src/main/resources/queries" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-core/src/main/resources/ziggy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-form/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-form/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-register/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-register/src/main/resources/lists" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opensrp-web/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

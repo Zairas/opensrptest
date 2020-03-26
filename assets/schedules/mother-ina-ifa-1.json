@@ -1,0 +1,29 @@
+{
+    "name": "INA IFA Test 1",
+    "absolute": true,
+    "milestones": [
+        {
+            "name": "INA IFA Test 1",
+            "scheduleWindows": {
+                "earliest": ["0 Weeks"],
+                "due": ["14 Weeks"],
+                "late": ["16 Weeks"],
+                "max": ["16 Weeks", "1 Day"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["0 Weeks"],
+                    "interval": ["1 Day"],
+                    "count": "84"
+                },
+                {
+                    "window": "late",
+                    "offset": ["14 Weeks"],
+                    "interval": ["1 Day"],
+                    "count": "616"
+                }
+            ]
+        }
+    ]
+}

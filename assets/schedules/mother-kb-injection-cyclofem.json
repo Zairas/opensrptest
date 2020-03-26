@@ -1,0 +1,29 @@
+{
+  "name": "KB Injection Cyclofem",
+  "absolute": true,
+  "milestones": [
+    {
+      "name": "KB Injection Cyclofem",
+      "scheduleWindows": {
+        "due": ["3 Weeks"],
+        "late": ["4 Weeks"],
+        "max": ["1 Year", "1 Day"]
+      },
+      "alerts": [
+
+        {
+          "window": "due",
+          "offset": ["0 Weeks"],
+          "interval": ["1 Day"],
+          "count": "7"
+        },
+        {
+          "window": "late",
+          "offset": ["4 Weeks"],
+          "interval": ["1 Day"],
+          "count": "337"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "KB Injection Depoprovera",
+  "absolute": true,
+  "milestones": [
+    {
+      "name": "KB Injection Depoprovera",
+      "scheduleWindows": {
+        "due": ["11 Weeks"],
+        "late": ["12 Weeks"],
+        "max": ["1 Year", "1 Day"]
+      },
+      "alerts": [
+
+        {
+          "window": "due",
+          "offset": ["0 Weeks"],
+          "interval": ["1 Day"],
+          "count": "7"
+        },
+        {
+          "window": "late",
+          "offset": ["12 Weeks"],
+          "interval": ["1 Day"],
+          "count": "279"
+        }
+      ]
+    }
+  ]
+}

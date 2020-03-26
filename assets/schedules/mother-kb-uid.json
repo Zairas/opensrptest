@@ -1,0 +1,22 @@
+{
+    "name": "KB IUD",
+    "absolute": true,
+    "milestones": [
+        {
+            "name": "KB IUD",
+            "scheduleWindows": {
+                "due": ["9 Years"],
+                "max": ["10 Years", "1 Day"]
+            },
+            "alerts": [
+
+                {
+                    "window": "due",
+                    "offset": ["1 Year"],
+                    "interval": ["1 Week"],
+                    "count": "365"
+                }
+            ]
+        }
+    ]
+}

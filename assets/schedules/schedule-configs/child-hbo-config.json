@@ -1,0 +1,40 @@
+{
+	"name": "HBO",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Child Registration"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"concept": "1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "hb0",
+			"reference_date_fields": [
+				{
+					"type": "Client",
+					"field": "birthdate"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "hb0",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "hb0",
+			"action": "fulfill"
+		}
+	]
+}

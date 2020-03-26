@@ -1,0 +1,130 @@
+ {
+    "name": "TT 1",
+    "handler": "TTScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Tambah ANC"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "45AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "TT 1",
+        "reference_date_fields": [
+          {
+            "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  },
+  {
+    "name": "TT 2",
+    "handler": "TTScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Kunjungan ANC"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "163522AAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "161537AAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "TT 2",
+        "reference_date_fields": [
+          {
+            "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  },
+  {
+    "name": "TT 3",
+    "handler": "TTScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Kunjungan ANC"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "163522AAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "161538AAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "TT 3",
+        "reference_date_fields": [
+          {
+            "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  },
+  {
+    "name": "TT 4",
+    "handler": "TTScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Kunjungan ANC"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "163522AAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "163491AAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "TT 4",
+        "reference_date_fields": [
+          {
+            "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  },
+  {
+    "name": "TT 5",
+    "handler": "TTScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Kunjungan ANC"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "163522AAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "163492AAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "TT 5",
+        "reference_date_fields": [
+          {
+            "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  }

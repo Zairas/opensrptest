@@ -1,0 +1,120 @@
+{
+	"name": "DPT HB1",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Child Registration"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"concept": "1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "dpt_hb1",
+			"reference_date_fields": [
+				{
+					"type": "Client",
+					"field": "birthdate"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "dpt_hb1",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "dpt_hb1",
+			"action": "fulfill"
+		}
+	]
+},
+{
+	"name": "DPT HB2",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Child Registration"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"formSubmissionField": "dpt_hb1",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "dpt_hb2",
+			"reference_date_fields": [
+				{
+					"formSubmissionField": "dpt_hb1",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "dpt_hb2",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "dpt_hb2",
+			"action": "fulfill"
+		}
+	]
+},
+{
+	"name": "DPT HB3",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Child Registration"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"formSubmissionField": "dpt_hb2",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "dpt_hb3",
+			"reference_date_fields": [
+				{
+					"formSubmissionField": "dpt_hb2",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "dpt_hb3",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "dpt_hb3",
+			"action": "fulfill"
+		}
+	]
+}

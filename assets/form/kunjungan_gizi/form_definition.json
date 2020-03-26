@@ -1,0 +1,123 @@
+{
+  "form_data_definition_version": "1",
+  "form": {
+    "bind_type": "anak",
+    "default_bind_path": "/model/instance/Kunjungan_Gizi/",
+    "fields": [
+      {
+        "name": "id",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "start",
+        "bind": "/model/instance/Kunjungan_Gizi/start"
+      },
+      {
+        "name": "desa",
+        "bind": "/model/instance/Kunjungan_Gizi/existing_Village",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "provinsi",
+        "bind": "/model/instance/Kunjungan_Gizi/existing_Province",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "kecamatan",
+        "bind": "/model/instance/Kunjungan_Gizi/existing_Sub-district",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "kabupaten",
+        "bind": "/model/instance/Kunjungan_Gizi/existing_District",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "dusun",
+        "bind": "/model/instance/Kunjungan_Gizi/existing_Sub-village",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "underweight",
+        "bind": "/model/instance/Kunjungan_Gizi/underweight",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "stunting",
+        "bind": "/model/instance/Kunjungan_Gizi/stunting",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "wasting",
+        "bind": "/model/instance/Kunjungan_Gizi/wasting",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "tanggalPenimbangan",
+        "bind": "/model/instance/Kunjungan_Gizi/tanggal_preload",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "kunjunganSebelumnya",
+        "bind": "/model/instance/Kunjungan_Gizi/kunjungan_sebelumnya"
+      },
+      {
+        "name": "tanggalPenimbangan",
+        "bind": "/model/instance/Kunjungan_Gizi/tanggal_penimbangan"
+      },
+      {
+        "name": "tanggalLahir",
+        "bind": "/model/instance/Kunjungan_Gizi/tanggal_lahir",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "umur",
+        "bind": "/model/instance/Kunjungan_Gizi/umur"
+      },
+      {
+        "name": "history_umur",
+        "bind": "/model/instance/Kunjungan_Gizi/preload_umur",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "history_umur",
+        "bind": "/model/instance/Kunjungan_Gizi/history_umur"
+      },
+      {
+        "name": "beratBadan",
+        "bind": "/model/instance/Kunjungan_Gizi/berat_badan"
+      },
+      {
+        "name": "history_berat",
+        "bind": "/model/instance/Kunjungan_Gizi/berat_preload",
+        "shouldLoadValue": true
+      },
+      {
+        "name": "history_berat",
+        "bind": "/model/instance/Kunjungan_Gizi/history_berat"
+      },
+
+      {
+        "name": "tinggiBadan",
+        "bind": "/model/instance/Kunjungan_Gizi/tinggi_badan"
+      },
+      {
+        "name": "asi",
+        "bind": "/model/instance/Kunjungan_Gizi/ae"
+      },
+      {
+        "name": "vitA",
+        "bind": "/model/instance/Kunjungan_Gizi/vitA"
+      },
+      {
+        "name": "end",
+        "bind": "/model/instance/Kunjungan_Gizi/end"
+      },
+      {
+        "name": "registrationDate",
+        "bind": "/model/instance/Kunjungan_Gizi/today"
+      }
+
+    ]
+  }
+}

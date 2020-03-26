@@ -1,0 +1,160 @@
+{
+	"name": "OPV 0",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Child Registration"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"concept": "1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv0",
+			"reference_date_fields": [
+				{
+					"type": "Client",
+					"field": "birthdate"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "polio1",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv0",
+			"action": "fulfill"
+		}
+	]
+},
+{
+	"name": "OPV 1",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"formSubmissionField": "polio1",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv1",
+			"reference_date_fields": [
+				{
+					"formSubmissionField": "polio1",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "polio2",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv1",
+			"action": "fulfill"
+		}
+	]
+},
+{
+	"name": "OPV 2",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"formSubmissionField": "polio2",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv2",
+			"reference_date_fields": [
+				{
+					"formSubmissionField": "polio2",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "polio3",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv2",
+			"action": "fulfill"
+		}
+	]
+},
+{
+	"name": "OPV 3",
+	"handler": "IndoScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"formSubmissionField": "polio3",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv3",
+			"reference_date_fields": [
+				{
+					"formSubmissionField": "polio3",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "polio4",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "opv3",
+			"action": "fulfill"
+		}
+	]
+}

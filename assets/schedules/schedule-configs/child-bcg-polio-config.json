@@ -1,0 +1,41 @@
+{
+					"name": "BCG POLIO",
+					"handler": "ChildScheduleHandler",
+					"events": [
+						{
+							"types": ["Child Registration"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"concept": "1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"milestone": "BCG POLIO",
+							"reference_date_fields": [
+				                {
+				                  "type": "Client",
+				                  "field": "birthdate"
+				                }
+				             ],
+							"action": "enroll"
+						},
+						{
+							"types": ["Imunisasi Bayi"],
+							"pass_logic": "AND",
+							"fulfillment_date_fields": [
+								{
+									"formSubmissionField": "bcg",
+									"value": "NOT_EMPTY"
+								},
+								{
+									"formSubmissionField": "polio1",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"milestone": "BCG POLIO",
+							"action": "fulfill"
+						}
+					]
+	
+}

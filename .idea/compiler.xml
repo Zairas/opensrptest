@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="opensrp-web" />
+        <module name="opensrp-form" />
+        <module name="opensrp-api" />
+        <module name="opensrp-connector" />
+        <module name="opensrp-register" />
+        <module name="opensrp-common" />
+        <module name="opensrp-interface" />
+        <module name="opensrp-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="opensrp" target="1.7" />
+      <module name="opensrp-api" target="1.7" />
+      <module name="opensrp-common" target="1.7" />
+      <module name="opensrp-connector" target="1.7" />
+      <module name="opensrp-core" target="1.7" />
+      <module name="opensrp-form" target="1.7" />
+      <module name="opensrp-interface" target="1.7" />
+      <module name="opensrp-register" target="1.7" />
+      <module name="opensrp-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

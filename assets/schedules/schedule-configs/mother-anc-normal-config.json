@@ -1,0 +1,86 @@
+{
+					"name": "Ante Natal Care Reminder Visit",
+					"handler": "ANCScheduleHandler",
+					"events": [
+						{
+							"types": ["Tambah ANC"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"concept": "45AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+									"value":"703AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+								}
+							],
+							"milestone": "ANC 1",
+							"reference_date_fields": [
+				                {
+				                  "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+				                  "value": "NOT_EMPTY"
+				                }
+				             ],
+							"action": "enroll"
+						},{
+							"types": ["Kunjungan ANC"],
+							"pass_logic": "AND",
+							"fulfillment_date_fields": [
+								{
+									"concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"action": "fulfill"
+						},{
+							"types": ["Kunjungan ANC"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"concept": "1425AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+									"value":"1"
+								}
+							],
+							"milestone": "ANC 2",
+							"reference_date_fields": [
+				                {
+				                  "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+				                  "value": "NOT_EMPTY"
+				                }
+				             ],
+							"action": "enroll"
+						},{
+							"types": ["Kunjungan ANC"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"concept": "1425AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+									"value":"2"
+								}
+							],
+							"milestone": "ANC 3",
+							"reference_date_fields": [
+				                {
+				                  "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+				                  "value": "NOT_EMPTY"
+				                }
+				             ],
+							"action": "enroll"
+						},{
+							"types": ["Kunjungan ANC"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"concept": "1425AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+									"value":"3"
+								}
+							],
+							"milestone": "ANC 4",
+							"reference_date_fields": [
+				                {
+				                  "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+				                  "value": "NOT_EMPTY"
+				                }
+				             ],
+							"action": "enroll"
+						}
+					]
+	
+}

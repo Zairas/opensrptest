@@ -1,0 +1,44 @@
+{
+					"name": "DPT3 POLIO4",
+					"handler": "ChildScheduleHandler",
+					"events": [
+						{
+							"types": ["Imunisasi Bayi"],
+							"pass_logic": "AND",
+							"enrollment_fields": [
+								{
+									"formSubmissionField": "dptHb2",
+									"value": "NOT_EMPTY"
+								},{
+									"formSubmissionField": "polio3",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"milestone": "DPT3 POLIO4",
+							"reference_date_fields": [
+				                {
+				                  "formSubmissionField": "polio3",
+				                  "value": "NOT_EMPTY"
+				                }
+				             ],
+							"action": "enroll"
+						},
+						{
+							"types": ["Imunisasi Bayi"],
+							"pass_logic": "AND",
+							"fulfillment_date_fields": [
+								{
+									"formSubmissionField": "dptHb3",
+									"value": "NOT_EMPTY"
+								},
+								{
+									"formSubmissionField": "polio4",
+									"value": "NOT_EMPTY"
+								}
+							],
+							"milestone": "DPT3 POLIO4",
+							"action": "fulfill"
+						}
+					]
+	
+}

@@ -1,0 +1,78 @@
+ {
+    "name": "Hb Test 1",
+    "handler": "HBScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Tambah ANC"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "45AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "Hb Test 1",
+        "reference_date_fields": [
+          {
+            "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  },
+  {
+    "name": "Hb Followup Test",
+    "handler": "HBScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Kunjungan ANC Lab Test"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "163522AAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "161537AAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "Hb Followup Test",
+        "reference_date_fields": [
+          {
+            "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  },
+  {
+    "name": "Hb Test 2",
+    "handler": "HBScheduleHandler",
+    "events": [
+      {
+        "types": [
+          "Kunjungan ANC Lab Test"
+        ],
+        "pass_logic": "AND",
+        "enrollment_fields": [
+          {
+            "concept": "163522AAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "161538AAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ],
+        "milestone": "Hb Test 2",
+        "reference_date_fields": [
+          {
+            "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "NOT_EMPTY"
+          }
+        ],
+        "action": "enroll"
+      }
+    ]
+  }

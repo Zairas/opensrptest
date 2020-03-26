@@ -1,0 +1,40 @@
+{
+	"name": "CAMPAK",
+	"handler": "ChildScheduleHandler",
+	"events": [
+		{
+			"types": [
+				"Child Registration"
+			],
+			"pass_logic": "AND",
+			"enrollment_fields": [
+				{
+					"concept": "1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "CAMPAK",
+			"reference_date_fields": [
+				{
+					"type": "Client",
+					"field": "birthdate"
+				}
+			],
+			"action": "enroll"
+		},
+		{
+			"types": [
+				"Imunisasi Bayi"
+			],
+			"pass_logic": "AND",
+			"fulfillment_date_fields": [
+				{
+					"formSubmissionField": "campak",
+					"value": "NOT_EMPTY"
+				}
+			],
+			"milestone": "CAMPAK",
+			"action": "fulfill"
+		}
+	]
+}
